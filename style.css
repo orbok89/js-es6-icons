@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    width: 100%;
+}
+h1{
+    color: aqua;
+    font-family: 'Acme';
+}
+main{
+    height: calc(100vh - 210px);
+    background-color: cadetblue;
+    
+}
+.filtro{
+    height: 70px;
+}
+.riquadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 10px 25px;
+    background-color: cornsilk;
+}
+.ridimensiona{
+   font-size: 25px;
+   padding: auto 30px;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
